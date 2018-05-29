@@ -101,8 +101,10 @@ var getTime=function(){
   return date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
 }
 
-var getColor=function(){
-  var colors = ['aliceblue','antiquewhite','aqua','aquamarine','pink','red','green',
-                'orange','blue','blueviolet','brown','burlywood','cadetblue'];
-  return colors[Math.round(Math.random() * 10000 % colors.length)];
+var getColor = function () {
+    // var colors = ['aliceblue','antiquewhite','aqua','aquamarine','pink','red','green',
+    //               'orange','blue','blueviolet','brown','burlywood','cadetblue'];
+    var colors = ['aliceblue', 'antiquewhite', 'aqua', 'aquamarine', 'pink', 'red'];
+
+    return colors[Math.round(Math.random() * 10000 % colors.length)];
 }
