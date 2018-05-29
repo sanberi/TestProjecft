@@ -105,6 +105,8 @@ var getColor = function () {
     // var colors = ['aliceblue','antiquewhite','aqua','aquamarine','pink','red','green',
     //               'orange','blue','blueviolet','brown','burlywood','cadetblue'];
     var colors = ['aliceblue', 'antiquewhite', 'aqua', 'aquamarine', 'pink', 'red'];
+    var colors2 = ['aliceblue', 'antiquewhite', 'aqua', 'aquamarine', 'pink', 'red'];
 
+//changed
     return colors[Math.round(Math.random() * 10000 % colors.length)];
 }
